@@ -1,7 +1,7 @@
 # HPC Data Locality & Layout Optimization (AoS → SoA)
 
 ## Overview
-This project demonstrates a practical optimization emphasized in the MSR’23 empirical study on HPC performance bugs: improving **data locality and memory layout**. The benchmark suite shows how moving from an **Array‑of‑Structs (AoS)** representation to a **Structure‑of‑Arrays (SoA)** layout, using **unit‑stride traversal**, and applying **simple blocking** changes performance for common kernels. The code is a small, reproducible prototype intended for coursework and lab write‑ups.
+This project demonstrates a practical optimization emphasized in the MSR’23 empirical study on HPC performance bugs: improving **data locality and memory layout**. The benchmark suite shows how moving from an **Array‑of‑Structs (AoS)** representation to a **Structure‑of‑Arrays (SoA)** layout, using **unit‑stride traversal**, and applying **simple blocking** changes performance for common kernels. The code is a small, reproducible prototype.
 
 ## How to Run
 1. Ensure Python and NumPy are installed (Matplotlib is optional for charts; Numba is optional for JIT paths).
