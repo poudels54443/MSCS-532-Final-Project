@@ -1,0 +1,8 @@
+group,bench,N,mean_s,stdev_s
+dot,Dot AoS (Python loop),300000,0.021297195,0.000692797
+dot,Dot SoA (NumPy vectorized),300000,0.001026403,0.000148381
+stride,Strided sum (stride=8),4000000,0.000598750,0.000102937
+stride,Contiguous copy+sum (stride=8),4000000,0.000914500,0.000055357
+stride,Chunked sum (chunk=131072),4000000,0.000788180,0.000001276
+stride,Contiguous full sum,4000000,0.000742570,0.000013931
+mm,MatMul NumPy (BLAS),192,0.000045209,0.000000000
